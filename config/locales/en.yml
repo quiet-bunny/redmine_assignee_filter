@@ -1,0 +1,7 @@
+# English strings go here for Rails i18n
+en:
+  my_calendar:
+    label_select: "Show events on my calendar with"
+    label_all: "For any event on all my projects"
+    label_watch: "Only for things I watch or I'm involved in"
+    label_asigned: "Only for things I am asigned to"

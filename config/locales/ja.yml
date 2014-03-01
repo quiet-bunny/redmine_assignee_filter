@@ -1,0 +1,7 @@
+# English strings go here for Rails i18n
+en:
+  my_calendar:
+    label_select: "マイページのカレンダーに表示するチケット"
+    label_all: "参加しているプロジェクトのすべてのチケット"
+    label_watch: "ウォッチまたは関係しているチケットのみ"
+    label_asigned: "自分が担当しているチケットのみ"

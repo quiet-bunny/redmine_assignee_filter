@@ -1,0 +1,7 @@
+</fieldset>
+<fieldset class="box tabular">
+  <legend>My Calendar</legend>
+  <%= fields_for :pref, @user.pref do |ff| %>
+    <p><%= ff.label :my_calendar, l("my_calendar.label_select") %><%= ff.select :my_calendar, [[l("my_calendar.label_all"), MyCalendar::ALL.to_s], [l("my_calendar.label_watch"), MyCalendar::WATCH.to_s], [l("my_calendar.label_asigned"), MyCalendar::ASIGNED.to_s]] %></p>
+  <% end %>
+</fieldset>
