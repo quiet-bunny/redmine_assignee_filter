@@ -1,11 +1,11 @@
 require "redmine"
-require "my_calendar"
+require "assignee_filter"
 
-Redmine::Plugin.register :redmine_my_calendar do
-  name 'Redmine My Calendar plugin'
+Redmine::Plugin.register :redmine_assignee_filter do
+  name 'Assignee Filter plugin'
   author 'Quiet Bunny'
-  description 'Show asigned and watched tasks on mypage calendar'
+  description 'Filter assignee'
   version '0.0.1'
-  url 'https://github.com/quiet-bunny/redmine_my_calendar/'
+  url 'https://github.com/quiet-bunny/redmine_assignee_filter/'
   author_url 'https://github.com/quiet-bunny/'
 end
