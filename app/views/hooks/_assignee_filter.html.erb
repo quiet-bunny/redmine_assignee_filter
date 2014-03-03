@@ -1,1 +1,10 @@
-<%= javascript_include_tag "filter.js", :plugin => "redmine_assignee_filter" %>
+<% content_for :header_tags do %>
+  <%= javascript_include_tag "filter.js", :plugin => "redmine_assignee_filter" %>
+<% end %>
+
+<script type="text/javascript">
+  $(function(){
+    AssigneeFilter.target = $("#issue_assigned_to_id");
+    AssigneeFilter.showFilterInput();
+  });
+</script>
